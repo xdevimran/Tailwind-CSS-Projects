@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: hsl(0, 0%, 8%);
+        color: white;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="flex items-center justify-center h-screen mx-auto">
+      <div class="w-96 bg-[hsl(0,0%,12%)] p-10 rounded-xl">
+        <!-- Author info -->
+        <div class="flex flex-col items-center justify-center">
+          <img
+            src="./assets/images/avatar-jessica.jpeg"
+            alt="author image"
+            class="rounded-full w-20"
+          />
+          <h3 class="text-[hsl(0,0%,100%)] text-xl pt-5 font-medium">
+            Jessica Randall
+          </h3>
+          <p class="text-[hsl(75,94%,57%)] text-sm">London, United Kingdom</p>
+          <p class="py-5 text-[hsl(0,0%,100%)] text-sm font-normal">
+            "Front-end developer and avid reader."
+          </p>
+        </div>
+        <!-- social links -->
+        <div class="flex flex-col gap-3 items-center justify-center">
+          <p
+            class="font-semibold bg-[hsl(0,0%,20%)] w-full text-center p-2 rounded-md cursor-pointer hover:bg-[hsl(75,94%,57%)] hover:text-[hsl(0,0%,8%)] hover:transition-all duration-300 delay-100"
+          >
+            GitHub
+          </p>
+          <p
+            class="font-semibold bg-[hsl(0,0%,20%)] w-full text-center p-2 rounded-md cursor-pointer hover:bg-[hsl(75,94%,57%)] hover:text-[hsl(0,0%,8%)] hover:transition-all duration-300 delay-100"
+          >
+            Frontend Mentor
+          </p>
+          <p
+            class="font-semibold bg-[hsl(0,0%,20%)] w-full text-center p-2 rounded-md cursor-pointer hover:bg-[hsl(75,94%,57%)] hover:text-[hsl(0,0%,8%)] hover:transition-all duration-300 delay-100"
+          >
+            LinkedIn
+          </p>
+          <p
+            class="font-semibold bg-[hsl(0,0%,20%)] w-full text-center p-2 rounded-md cursor-pointer hover:bg-[hsl(75,94%,57%)] hover:text-[hsl(0,0%,8%)] hover:transition-all duration-300 delay-100"
+          >
+            Twitter
+          </p>
+          <p
+            class="font-semibold bg-[hsl(0,0%,20%)] w-full text-center p-2 rounded-md cursor-pointer hover:bg-[hsl(75,94%,57%)] hover:text-[hsl(0,0%,8%)] hover:transition-all duration-300 delay-100"
+          >
+            Instagram
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/xdevimran">Imran</a>.
+    </div>
+  </body>
+</html>
