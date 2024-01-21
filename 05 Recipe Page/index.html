@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-[hsl(30,54%,90%)]">
+    <main class="mx-0 md:mx-60 lg:p-10 p-5 bg-[hsl(0,0%,100%)] rounded-xl">
+      <header class="pb-5">
+        <img
+          class="rounded-xl"
+          src="./assets/images/image-omelette.jpeg"
+          alt=""
+        />
+        <h1 class="text-4xl font-bold py-5">Simple Omelette Recipe</h1>
+        <p>
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
+      </header>
+      <section class="bg-[hsl(330,100%,98%)] p-5 rounded-md">
+        <!-- Preparation section -->
+        <h3 class="text-[hsl(332,51%,32%)] text-lg font-semibold">
+          Preparation time
+        </h3>
+        <li>
+          <span class="text-base font-semibold">Total:</span> Approximately 10
+          minutes
+        </li>
+        <li>
+          <span class="text-base font-semibold">Preparation:</span>
+          5 minutes
+        </li>
+        <li><span class="text-base font-semibold">Cooking:</span> 5 minutes</li>
+      </section>
+      <section class="py-5 space-y-2">
+        <!-- Ingredients section  -->
+        <h3 class="text-xl font-bold text-[hsl(14,45%,36%)]">Ingredients</h3>
+        <li>2-3 large eggs</li>
+        <li>Salt, to taste</li>
+        <li>Pepper, to taste</li>
+        <li>1 tablespoon of butter or oil</li>
+        <li>
+          Optional fillings: cheese, diced vegetables, cooked meats, herbs
+        </li>
+      </section>
+      <hr />
+      <section class="py-5 space-y-5 p-5">
+        <!-- Instructions section  -->
+        <h2 class="text-2xl font-bold text-[hsl(14,45%,36%)]">Instructions</h2>
+        <ol class="list-decimal">
+          <li>
+            <span class="font-semibold">Beat the eggs:</span> In a bowl, beat
+            the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.
+          </li>
+          <li>
+            <span class="font-semibold">Heat the pan:</span> In a Place a
+            non-stick frying pan over medium heat and add butter or oil.
+          </li>
+          <li>
+            <span class="font-semibold">Cook the omelette:</span>
+            Once the butter is melted and bubbling, pour in the eggs. Tilt the
+            pan to ensure the eggs evenly coat the surface.
+          </li>
+          <li>
+            <span class="font-semibold">Add fillings (optional):</span> When the
+            eggs begin to set at the edges but are still slightly runny in the
+            middle, sprinkle your chosen fillings over one half of the omelette.
+          </li>
+          <li>
+            <span class="font-semibold">Fold and serve:</span> As the omelette
+            continues to cook, carefully lift one edge and fold it over the
+            fillings. Let it cook for another minute, then slide it onto a
+            plate.
+          </li>
+          <li>
+            <span class="font-semibold">Enjoy:</span> Serve hot, with additional
+            salt and pepper if needed.
+          </li>
+        </ol>
+      </section>
+      <section>
+        <!-- Nutrition section  -->
+        <h2 class="text-2xl font-bold text-[hsl(14,45%,36%)]">Nutrition</h2>
+        <p>
+          The table below shows nutritional values per serving without the
+          additional fillings.
+        </p>
+        <div>
+          <div class="md:w-96 w-auto p-5 flex items-center justify-between">
+            <p>Calories</p>
+            <p class="text-base font-bold text-[hsl(14,45%,36%)]">277kcal</p>
+          </div>
+          <hr />
+          <div class="md:w-96 w-auto p-5 flex items-center justify-between">
+            <p>Carbs</p>
+            <p class="text-base font-bold text-[hsl(14,45%,36%)]">0g</p>
+          </div>
+          <hr />
+          <div class="md:w-96 w-auto p-5 flex items-center justify-between">
+            <p>Protein</p>
+            <p class="text-base font-bold text-[hsl(14,45%,36%)]">20g</p>
+          </div>
+          <hr />
+          <div class="md:w-96 w-auto p-5 flex items-center justify-between">
+            <p>Fat</p>
+            <p class="text-base font-bold text-[hsl(14,45%,36%)]">22g</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution py-5">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/xdevimran">Imran</a>.
+    </footer>
+  </body>
+</html>
